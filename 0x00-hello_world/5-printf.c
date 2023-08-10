@@ -4,7 +4,6 @@
  * main - Entry point
  * Description: 'prints string on the console.'
  * Return: Always 0 (Success)
- *     
  */
 
 int main(void)
