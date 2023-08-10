@@ -2,11 +2,12 @@
 
 /**
  * main - Entry point
- * Description: 'prints string on the console.'
- * Return: Always 0 (Success)  
+ * Description: 'Prints string to standard error.'
+ * Return: Always 0(Success)  
  */
 
 int main(void)
-{	fprintf(stderr,"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+{	fprintf(stderr, "and that piece of art is useful\"\ 
+		- Dora Korpar, 2015-10-19\n");
 	return (1);
 }
