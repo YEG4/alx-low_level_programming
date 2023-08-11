@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Description: 'prints string on the console.'
+ *
  * Return: Always 0 (Success)
  */
 
@@ -13,8 +13,11 @@ int main(void)
 	for (i = 48; i <= 57; i++)
 	{
 		putchar(i);
-		putchar(',');
-		putchar(' ');
+		if (i != '9')
+		{
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
