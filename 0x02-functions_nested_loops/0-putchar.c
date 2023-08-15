@@ -1,5 +1,3 @@
-#include <_putchar.h>
-
 _putchar('_');
 _putchar('p');
 _putchar('u');
