@@ -21,7 +21,7 @@ void times_table(void)
 			}
 			else
 				_putchar(i * j + 48);
-			if (i * j != 81)
+			if (j != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
