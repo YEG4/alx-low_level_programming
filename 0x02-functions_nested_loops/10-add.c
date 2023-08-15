@@ -2,7 +2,8 @@
 
 /**
  * add - function
- * @x, y: Two numbers to be added.
+ * @x: First number to be added.
+ * @y: Second number to be added.
  *
  * Description: 'Adds two numbers and returns the result
  * Return: Always result (Success)
