@@ -2,6 +2,8 @@
 
 /**
  * _islower - function
+ * @c: letter to be checked.
+ *
  * Description: 'Checks whether the letter is lowercase or not.'
  * Return:  0 (Success) 1 (Fail)
  */
@@ -13,7 +15,7 @@ int _islower(int c)
 	for (i = 97; i <= 122; i++)
 	{
 		if (c == i)
-			return 1;
+			return (1);
 	}
-	return 0;
+	return (0);
 }
