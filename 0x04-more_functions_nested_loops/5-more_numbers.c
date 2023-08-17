@@ -10,7 +10,7 @@ void more_numbers(void)
 {
 	int i, num;
 
-	for (i = 0; i <= 9; i++)
+	for (i = 0; i <= 14; i++)
 	{
 		num = i;
 		if (num > 9)
