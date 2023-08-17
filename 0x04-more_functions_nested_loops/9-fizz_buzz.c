@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
  * main - Entry point
  * Description: 'solution for fizzbuzz interview question.'
@@ -22,5 +22,6 @@ int main(void)
 		else
 			printf("%d ", i);
 	}
+	_putchar('\n');
 	return (0);
 }
