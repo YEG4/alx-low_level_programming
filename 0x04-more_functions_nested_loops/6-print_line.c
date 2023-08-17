@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_line- prints a line _____.
  * @n: number of '_' to be printed
