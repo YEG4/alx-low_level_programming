@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * main - Entry point
+ * Description: 'solution for fizzbuzz interview question.'
+ * Return: Always 0 (Success)
+ */
+
 
 int main(void)
 {
