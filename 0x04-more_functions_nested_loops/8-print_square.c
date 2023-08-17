@@ -2,20 +2,24 @@
 
 /**
  * print_square- prints a line '#'.
- * @n: number of '#' to be printed
+ * @size: number of '#' to be printed
  * Description: 'Prints a '#' on the console'
  */
 
 
-void print_square(int n)
+void print_square(int size)
 {
-	int i;
+	int i, j;
 
 	if (n > 0)
 	{
-		for (i = 0; i < n; i++)
+		for (j = 0; j < n; j++)
 		{
-			_putchar('#');
+			for (i = 0; i < n; i++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
 		}
 	}
 	_putchar('\n');
