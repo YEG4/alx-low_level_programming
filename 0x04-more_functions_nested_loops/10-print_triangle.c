@@ -2,7 +2,8 @@
 
 /**
  * print_triangle- prints a triangle of '#'.
- * @n: number of '#' to be printed
+ * @size: number of '#' to be printed
+ *
  * Description: 'Prints a triangle on the console'
  */
 
