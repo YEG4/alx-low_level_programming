@@ -4,6 +4,7 @@
  * @src: String to be copied to dest.
  *
  * Description: 'Copies one string and store it in another.'
+ * Return: Address of first letter of string dest.
  */
 
 
