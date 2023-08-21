@@ -19,7 +19,7 @@ void rev_string(char *s)
 		s++;
 	}
 	mid = counter / 2;
-	while(counter > mid)
+	while (counter > mid)
 	{
 		s--;
 		temp = *ptr;
