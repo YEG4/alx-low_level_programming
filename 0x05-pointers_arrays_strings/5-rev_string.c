@@ -18,6 +18,7 @@ void rev_string(char *s)
 		counter++;
 		s++;
 	}
+	s--;
 	while(counter > counter / 2)
 	{
 		temp = *ptr;
@@ -25,7 +26,7 @@ void rev_string(char *s)
 		*s = temp;
 		ptr++;
 		s--;
+		counter--;
 	}
-	printf("\n");
 
 }
