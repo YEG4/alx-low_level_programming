@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 /**
  * _puts - Prints string to stdout.
  * @str: String to be printed on the console.
