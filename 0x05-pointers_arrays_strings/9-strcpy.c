@@ -1,7 +1,7 @@
 /**
  * _strcpy- Copies one string and store it in another.
  * @dest: destination string.
- * @stc: String to be copied to dest.
+ * @src: String to be copied to dest.
  *
  * Description: 'Copies one string and store it in another.'
  */
