@@ -30,4 +30,3 @@ int _strcmp(char *s1, char *s2)
 		value = 0;
 	return (value);
 }
-	
