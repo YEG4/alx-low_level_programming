@@ -27,7 +27,7 @@ int _strcmp(char *s1, char *s2)
 	else if (counter1 < counter2)
 		value = -1;
 	else
-		value 0;
+		value = 0;
 	return (value);
 }
 	
