@@ -9,7 +9,8 @@
 
 char *_strchr(char *s, char c)
 {
-	int i = 0, found = 0;
+	int i = 0;
+	char *found = 0;
 
 	while (s[i] != 0)
 	{
