@@ -1,5 +1,5 @@
 /**
- * main - Entry point
+ * _memset - Entry point
  * @s: Address
  * @b: constant byte.
  * @n: number of of bytes.
