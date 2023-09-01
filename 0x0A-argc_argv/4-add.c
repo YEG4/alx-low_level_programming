@@ -12,16 +12,16 @@
 
 int main(int argc, char *argv[])
 {
-	int sum;
+	int sum = 0;
 	
 	if (argc == 1)
 		printf("0\n");
 	if (argc > 2)
 	{
 		argv++;
-		while (argc--)
+		while (argc > 1)
 		{
-			if ('atoi(*argv)' >= 48 && 'atoi(*argv)' <= 57)
+			if (*argv >= 48 && *argv <= 57)
 				sum += atoi(*argv++);
 			else
 			{
