@@ -16,8 +16,8 @@ int main(int argc, char *argv[])
 
 	if (argc > 0 && argc <= 2)
 	{
-		printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
-		sum = (argv[1] * argv[2]);
+		sum = (atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", sum);
 	}
 	else
 	{
