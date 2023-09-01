@@ -18,9 +18,10 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	if (argc > 2)
 	{
+		argv++;
 		while (argc--)
 		{
-			if (atoi(*argv) >= 0)
+			if ('atoi(*argv)' >= 48 && 'atoi(*argv)' <= 57)
 				sum += atoi(*argv++);
 			else
 			{
