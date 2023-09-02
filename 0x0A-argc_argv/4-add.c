@@ -21,7 +21,7 @@ int main(int argc, char *argv[])
 		argv++;
 		while (argc > 1)
 		{
-			if (*argv >= 48 && *argv <= 57)
+			if (**argv >= '0' && **argv <= '9')
 				sum += atoi(*argv++);
 			else
 			{
