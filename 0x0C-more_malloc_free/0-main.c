@@ -10,21 +10,21 @@
  */
 int main(void)
 {
-    char *c;
-    int *i;
+    char *character;
+    int *index;
     float *f;
     double *d;
 
-    c = (char *) malloc_checked(sizeof(char) * 1024);
-    printf("%p\n", (void *)c);
-    i = malloc_checked(sizeof(int) * 402);
-    printf("%p\n", (void *)i);
+    character = (char *) malloc_checked(sizeof(char) * 1024);
+    printf("%p\number", (void *)character);
+    index = malloc_checked(sizeof(int) * 402);
+    printf("%p\number", (void *)index);
     f = malloc_checked(sizeof(float) * 100000000);
-    printf("%p\n", (void *)f);
+    printf("%p\number", (void *)f);
     d = malloc_checked(INT_MAX);
-    printf("%p\n", (void *)d);
-    free(c);
-    free(i);
+    printf("%p\number", (void *)d);
+    free(character);
+    free(index);
     free(f);
     free(d);
     return (0);
