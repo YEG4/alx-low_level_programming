@@ -4,8 +4,8 @@
 /**
  * *_memset - populates memory with a constant byte
  * @s: memory to be filled
- * @b: char 
- * @n: number of times 
+ * @b: char
+ * @n: number of times
  *
  * Return: pointer to s
  */
@@ -23,7 +23,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 /**
  * *_calloc - allocates memory for array
- * @nmemb: number of elements 
+ * @nmemb: number of elements
  * @size: size of element
  *
  * Return: pointer to allocated memory
