@@ -1,3 +1,6 @@
+#include <stdlib.h>
+#include "main.h"
+
 /**
  * array_range - creates an array of integers
  * @min: minimum range of values 
@@ -6,6 +9,13 @@
  * Return: pointer to the new array
  */
 
+int *array_range(int min, int max)
+{
+	int *ptr = malloc(max - min * sizeof *ptr);
 
-
-
+	if (max - min < 0)
+		return (NULL);
+	if (ptr == NULL)
+		return (NULL);
+	return (ptr);
+}
