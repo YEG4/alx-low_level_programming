@@ -7,11 +7,10 @@
 
 void free_dog(struct dog *d)
 {
-        if (d)
-        {
-                free(d->name);
-                free(d->owner);
-                free(d);
-
-        }
+if (d)
+{
+free(d->name);
+free(d->owner);
+free(d);
+}
 }
