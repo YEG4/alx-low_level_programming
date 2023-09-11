@@ -16,4 +16,6 @@ char *owner;
 } dog_t;
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
+char *_string_copy(char *dest, char *src);
+int _lenstr(char *s);
 #endif
