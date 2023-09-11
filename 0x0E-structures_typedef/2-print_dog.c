@@ -11,6 +11,7 @@ if (d == NULL)
 {/*do nothing*/}
 if (d->name == NULL)
 {printf("Name: (nil)\n");}
+
 else
 {printf("Name: %s\n", d->name);}
 printf("Name: %0.1f\n", d->age);
