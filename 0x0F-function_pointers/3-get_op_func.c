@@ -16,8 +16,7 @@ op_t ops[] =
 {"-", op_sub},
 {"*", op_mul},
 {"/", op_div},
-{"%", op_mod},
-{NULL, NULL}};
+{"%", op_mod},{NULL, NULL}};
 int i;
 i = 0;
 
