@@ -1,5 +1,5 @@
 #include "function_pointers.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * array_iterator - Call different function on an array.
  * @array: array of int.
@@ -11,7 +11,7 @@
 
 void array_iterator(int *array, size_t size, void (*action)(int))
 {
-int i;
+unsigned int i;
 if (array == 0 || action == 0)
 {return;}
 for (i = 0; i < size; i++)
