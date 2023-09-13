@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 int op1, op2, result;
 
 int (*ptr_func)(int, int);
-if (argc < 4 || argc > 7)
+if (argc < 4)
 {
 printf("Error\n");
 exit(98);
