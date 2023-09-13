@@ -20,7 +20,7 @@ exit(98);
 }
 op1 = atoi(argv[1]);
 op2 = atoi(argv[3]);
-ptr_func = get_op_func(argv[2 + 1]);
+ptr_func = get_op_func(argv[4]);
 
 if (ptr_func)
 {
