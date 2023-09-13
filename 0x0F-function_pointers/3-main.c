@@ -22,8 +22,11 @@ op1 = atoi(argv[1]);
 op2 = atoi(argv[3]);
 ptr_func = get_op_func(argv[2]);
 
-if (ptr_func)
+if (!ptr_func)
 {
+printf("Error\n");
+exit(99);
+}
 if (op2 == 0 && (*argv[2] == '/' || *argv[2] == '%'))
 {
 printf("Error\n");
@@ -32,7 +35,4 @@ exit(100);
 result = ptr_func(op1, op2);
 printf("%d\n", result);
 return (0);
-}
-printf("Error\n");
-exit(99);
 }
