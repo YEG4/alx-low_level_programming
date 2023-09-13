@@ -2,7 +2,7 @@
  * op_add - Adds two integers.
  * @a: array of int.
  * @b: size of the array.
- * 
+ *
  * Description: 'Adds two integers.'
  * Return: result of addition.
  */
@@ -15,7 +15,7 @@ return (a + b);
  * op_sub - Subtracts two integers.
  * @a: array of int.
  * @b: size of the array.
- * 
+ *
  * Description: 'Adds two integers.'
  * Return: result of Subtraction.
  */
@@ -28,7 +28,7 @@ return (a - b);
  * op_mul - Mutliplicates two integers.
  * @a: array of int.
  * @b: size of the array.
- * 
+ *
  * Description: 'Adds two integers.'
  * Return: result of Mutliplication.
  */
@@ -40,7 +40,7 @@ return (a * b);
  * op_div - Divides two integers.
  * @a: array of int.
  * @b: size of the array.
- * 
+ *
  * Description: 'Adds two integers.'
  * Return: result of Division.
  */
@@ -52,7 +52,7 @@ return (a / b);
  * op_mod - Calculates remainde of two integers.
  * @a: array of int.
  * @b: size of the array.
- * 
+ *
  * Description: 'Adds two integers.'
  * Return: Remainder.
  */
