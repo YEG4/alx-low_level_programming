@@ -13,14 +13,14 @@ int main(int argc, char *argv[])
 int op1, op2, result;
 
 int (*ptr_func)(int, int);
-if (argc < 4)
+if (argc != 4)
 {
 printf("Error\n");
 exit(98);
 }
 op1 = atoi(argv[1]);
 op2 = atoi(argv[3]);
-ptr_func = get_op_func(argv[4]);
+ptr_func = get_op_func(argv[2]);
 
 if (ptr_func)
 {
