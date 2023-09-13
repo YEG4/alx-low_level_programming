@@ -15,4 +15,3 @@ if (name == 0 || f == 0)
 {return; }
 f(name);
 }
- 
