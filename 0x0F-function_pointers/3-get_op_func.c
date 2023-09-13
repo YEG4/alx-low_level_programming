@@ -23,7 +23,7 @@ while (ops[i].f)
 {
 if (ops[i].f == *s)
 {
-return (ops[i].op); 
+return (ops[i].op);
 }
 i++;
 }
