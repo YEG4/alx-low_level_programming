@@ -3,7 +3,7 @@
  * main - Entry point
  * @argc: number of arguments
  * @argv: array of arguments
- * 
+ *
  * Description: 'Evaluate expression given to it.'
  * Return:  0 (Success) Otherwise 98 or 99 or 100 (Fail)
  */
@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 int op1, op2, result;
 
 int (*ptr_func)(int, int);
-if(argc != 4)
+if (argc != 4)
 {
 printf("Error\n");
 exit(98);
@@ -24,7 +24,7 @@ ptr_func = get_op_func(argv[2]);
 
 if (ptr_func)
 {
-if (op2 == 0 &&(*argv[2] == '/' || *argv[2] == '%'))
+if (op2 == 0 && (*argv[2] == '/' || *argv[2] == '%'))
 {
 printf("Error\n");
 exit(100);
