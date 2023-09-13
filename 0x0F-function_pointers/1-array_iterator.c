@@ -1,5 +1,7 @@
 #include "function_pointers.h"
 #include <stdlib.h>
+
+
 /**
  * array_iterator - Call different function on an array.
  * @array: array of int.
