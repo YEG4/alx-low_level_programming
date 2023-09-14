@@ -29,13 +29,10 @@ while (counter != 0)
 {
 number = va_arg(args, int);
 printf("%d", number);
-if (counter != 1)
-{
 while (separator[i] != 0)
 {
 printf("%c", separator[i]);
 i++;
-}
 }
 counter--;
 }
