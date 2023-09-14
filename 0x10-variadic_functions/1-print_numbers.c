@@ -13,7 +13,6 @@ va_list args;
 int number, counter, i;
 va_start(args, n);
 counter = n;
-i = 0;
 for (i = 0; i < n; i++)
 	{
 		if (!separator)
