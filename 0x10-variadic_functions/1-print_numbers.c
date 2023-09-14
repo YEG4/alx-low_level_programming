@@ -29,7 +29,7 @@ while (counter != 0)
 {
 number = va_arg(args, int);
 printf("%d", number);
-if (counter != 0)
+if (counter == n && separator)
 {
 while (separator[i] != 0)
 {
