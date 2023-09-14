@@ -9,7 +9,7 @@
 void print_all(const char * const format, ...)
 {
 char *string, *separator = "";
-unsigned int i;
+int i;
 va_list args;
 va_start(args,format);
 
@@ -31,7 +31,7 @@ printf("%s%f", separator, va_arg(args,double));
 break;
 case 's':
 string = va_arg(args, char *);
-if (!string)
+if (string == 0)
 string = "(nil)";     
 printf("%s%s", separator, string);
 break;
