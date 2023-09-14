@@ -16,12 +16,12 @@ counter = n;
 i = 0;
 if (separator == NULL)
 {
-/* while (counter != 0)
+while (counter != 0)
 {
 number = va_arg(args, int);
-printf("%d", number);
+printf("%d ", number);
 counter--;
-} */
+}
 }
 else
 {
