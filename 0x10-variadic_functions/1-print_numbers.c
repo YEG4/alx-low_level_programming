@@ -40,5 +40,6 @@ i++;
 counter--;
 }
 }
+va_end(args);
 printf("\n");
 }
