@@ -14,32 +14,15 @@ int number, counter, i;
 va_start(args, n);
 counter = n;
 i = 0;
-if (separator == NULL)
-{
-while (counter != 0)
-{
-number = va_arg(args, int);
-printf("%d", number);
-counter--;
-}
-}
-else
-{
-while (counter != 0)
-{
-number = va_arg(args, int);
-printf("%d", number);
-if (counter != 1)
-{
-while (separator[i] != 0)
-{
-printf("%c", separator[i]);
-i++;
-}
-}
-counter--;
-}
-}
+for (i = 0; i < n; i++)
+	{
+		if (!separator)
+			printf("%d", va_arg(list, int));
+		else if (separator && i == 0)
+			printf("%d", va_arg(list, int));
+		else
+			printf("%s%d", separator, va_arg(list, int));
+	}
 va_end(args);
 printf("\n");
 }
