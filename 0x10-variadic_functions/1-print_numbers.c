@@ -19,7 +19,7 @@ if (separator == NULL)
 while (counter != 0)
 {
 number = va_arg(args, int);
-printf("%d ", number);
+printf("%d", number);
 counter--;
 }
 }
