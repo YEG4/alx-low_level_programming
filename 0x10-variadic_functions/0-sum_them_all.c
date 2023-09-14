@@ -3,7 +3,6 @@
  * sum_them_all - Adds all arguments
  * @n: number of arguments.
  *
- *
  * Description: 'Adds all arguments .'
  * Return: Sum.
  */
