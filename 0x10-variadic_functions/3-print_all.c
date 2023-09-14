@@ -37,7 +37,7 @@ printf("%s%s", separator, string);
 break;
 default:
 i++;
-break;
+continue;
 }
 separator = ", ";
 i++;
