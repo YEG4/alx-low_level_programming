@@ -32,7 +32,7 @@ break;
 case 's':
 string = va_arg(args, char *);
 if (string == 0)
-string = "(nil)"; 
+string = "(nil)";
 printf("%s%s", separator, string);
 break;
 default:
