@@ -1,6 +1,6 @@
 #include "variadic_functions.h"
 /**
- * print_numbers - print strings with separator passed to it.
+ * print_strings - print strings with separator passed to it.
  * @separator: pointer to separator.
  * @n: number of arguments will be passed.
  *
