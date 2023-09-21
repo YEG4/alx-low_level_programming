@@ -10,14 +10,14 @@
 
 size_t print_list(const list_t *h)
 {
-	list_t const *next;
+	list_t const *next = h;
 	int count = 0;
 
-	next = h;
+	
 	if (h == NULL)
 		return (0);
 	while (next != NULL)
-	{	
+	{
 		count++;
 		if (next->str != NULL)
 		{
