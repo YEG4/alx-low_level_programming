@@ -17,18 +17,19 @@ list_t *add_node_end(list_t **head, const char *str)
 
 	if (head == NULL || new_node == NULL || str == NULL)
 		return (NULL);
-	if (temp)
+	if (temp == NULL)
 	{
-		while (temp->next != NULL)
-		{
-			temp = temp->next;
-		}
+		new_node = add_node(head, str);
+		return (new_node);
 	}
-	else
-		temp = new_node;	
-	new_node->str = strdup(str);
-	new_node->len = strlen(str);
-	new_node->next = NULL;
+	while (temp->next != NULL)
+	{
+		temp = temp->next;
+	}
+	temp->next = new_node;
+	temp->next->str = strdup(str);
+	temp->next->len = strlen(str);
+	temp->next->next = NULL;
 
 	return (new_node);
 }
