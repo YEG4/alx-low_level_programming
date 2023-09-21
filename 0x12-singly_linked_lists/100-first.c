@@ -1,9 +1,9 @@
 #include "lists.h"
 
 /**
- * constructor - exectues before main function.
+ *_constructor_ - exectues before main function.
  *
- * Description: frees a list_t list.
+ * Description: exectues before main function.
  */
 
 void _constructor_(void)
