@@ -4,7 +4,7 @@
  * add_node - adds a new node to the beginning of the list.
  * @str: pointer to a Node
  * @head: pointer to pointer to Node
- * 
+ *
  * Description: adds a new node to the beginning of the list.
  * Return: the address of the new element , or (NULL) if it failed.
  */
