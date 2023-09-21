@@ -10,11 +10,11 @@
 
 size_t print_list(const list_t *h)
 {
-	list_t *next = h;
+	list_t const *next = h;
 	int count = 0;
 
 	if (h == NULL)
-		return;
+		return (0);
 	while (next != NULL)
 	{	
 		count++;
@@ -25,8 +25,9 @@ size_t print_list(const list_t *h)
 		}
 		else
 		{
-			printf("[0] (nil)\n", next->len, next->str);
+			printf("[0] (nil)\n");
 			next = next->next;
 		}
 	}
+	return (count);
 }
