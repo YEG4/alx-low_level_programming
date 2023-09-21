@@ -4,6 +4,7 @@
  * print_list - prints members of linked list
  * @h: pointer to a Node
  *
+ * Description: prints members of linked list
  * Return: number of nodes.
  */
 
