@@ -2,6 +2,7 @@
 #define __LINKED_LIST__
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 /**
  * struct list_s - singly linked list
  * @str: string - (malloc'ed string)
