@@ -1,9 +1,9 @@
 #include "lists.h"
 /**
  * add_nodeint - print member of linked list.
- * @h: pointer to listint_t.
+ * @head: pointer to listint_t.
  * @n: elemnt of the node.
- * 
+ *
  * Description: print member of linked list.
  * Return: address of new node.
  */
