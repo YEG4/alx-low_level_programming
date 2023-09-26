@@ -4,7 +4,7 @@
  * @h: pointer to listint_t.
  *
  * Description: print member of linked list.
- * Return : number of nodes (count).
+ * Return: number of nodes (count).
  */
 
 size_t print_listint(const listint_t *h)
