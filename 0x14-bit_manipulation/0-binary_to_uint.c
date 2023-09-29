@@ -3,6 +3,8 @@
 
 /**
  * binary_to_uint - convert a binary number to int
+ *
+ * Description: convert a binary number to int
  * Return: number in decimal
  */
 unsigned int binary_to_uint(const char *b)
