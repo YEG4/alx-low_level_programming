@@ -8,12 +8,9 @@
  * Return: number at the index or -1.
  */
 
-
-
-
 int get_bit(unsigned long int n, unsigned int index)
 {
-	if (index > 31)
+	if (index > 64)
 		return (-1);
 	
 	return ((n & (~(1 << index))) >> index );
