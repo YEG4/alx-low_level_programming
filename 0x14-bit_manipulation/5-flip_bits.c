@@ -4,7 +4,7 @@
  * flip_bits - flip one number to another
  * @n: first number
  * @m: second number
- * 
+ *
  * Description: flip one number to another
  * Return: number of bits that was needed to flip
  */
