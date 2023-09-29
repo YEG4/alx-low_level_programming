@@ -4,7 +4,7 @@
  * print_binary - Print binary number.
  * @n: decimal number.
  *
- * Description: 
+ * Description: Print binary number.
  */
 void print_binary(unsigned long int n)
 {
