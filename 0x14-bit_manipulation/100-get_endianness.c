@@ -2,7 +2,7 @@
 
 /**
  * get_endianness - Check if it's Big or litte endian
- * 
+ *
  * Description: Check if it's Big or litte endian
  * Return: 1 or 0.
  */
