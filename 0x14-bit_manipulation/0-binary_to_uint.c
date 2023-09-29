@@ -3,6 +3,7 @@
 
 /**
  * binary_to_uint - convert a binary number to int
+ * @b: pointer to char.
  *
  * Description: convert a binary number to int
  * Return: number in decimal
