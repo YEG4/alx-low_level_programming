@@ -27,6 +27,7 @@ char *init_buf(char *file)
 	return (buf);
 }
 
+
 /**
  * exit_file - Closes file descriptors.
  * @fd: The file descriptor to be closed.
