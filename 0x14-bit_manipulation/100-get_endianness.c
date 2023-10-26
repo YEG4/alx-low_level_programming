@@ -16,6 +16,5 @@ int get_endianness(void)
 		return (1);
 	else
 		return (0);
-
 	write(1, &c,1);
 }
