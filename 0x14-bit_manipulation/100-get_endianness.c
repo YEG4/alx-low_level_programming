@@ -10,9 +10,9 @@
 int get_endianness(void)
 {
 	int number;
+
 	char c = 'A';
 	number = 8;
-
 	if (*(int *)&number == 8)
 		return (1);
 	else
